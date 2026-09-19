@@ -1,0 +1,23 @@
+TYPEFACES
+Two faces. One for headings, one for reading. Paste this into <head>, above
+your own stylesheet link, on BOTH pages.
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+Then in styles.css:
+
+  body {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-weight: 400;
+  }
+
+Pick your own pair if you like. The rule is the same: one face with some
+personality for the headings, one plain face that disappears when you read it.
+The fallbacks after the comma matter. They are what shows if the web font
+never arrives.

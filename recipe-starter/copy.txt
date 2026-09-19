@@ -1,0 +1,111 @@
+COPY
+All the words, so you are writing HTML and CSS rather than inventing a menu.
+Use it as it is, or replace every line with your own. The structure is what
+is being graded.
+
+==================================================================
+NAV  (same five on both pages)
+==================================================================
+  Home
+  Recipes
+  Tonight's Three
+  About
+  Contact
+
+==================================================================
+HOME PAGE   index.html
+==================================================================
+
+-- hero ------------------------------------------------------------
+eyebrow:  Recipe of the week
+h1:       Sticky BBQ chicken, done in one pan
+lede:     Forty minutes, one tray, and a sauce that caramelizes while you set the table. The one we make when people turn up hungry.
+button:   Read the recipe
+
+-- section above the cards -----------------------------------------
+h2:       Three for this week
+copy:     Everything here feeds four and fits on one counter.
+
+-- the three cards -------------------------------------------------
+card 1
+  image:  images/bbq-chicken-card.jpeg
+  alt:    Sticky BBQ chicken thighs on a tray
+  h3:     Sticky BBQ Chicken
+  copy:   Sweet, smoky, and forgiving. The sauce does the work while the oven is on.
+card 2
+  image:  images/amish-macaroni-salad-card.webp
+  alt:    A bowl of creamy macaroni salad
+  h3:     Amish Macaroni Salad
+  copy:   Creamy, a little sweet, and better the next day. Make it the night before.
+card 3
+  image:  images/Watermelon-salad-card.webp
+  alt:    Watermelon salad with feta and mint
+  h3:     Watermelon & Feta Salad
+  copy:   Five ingredients, no cooking, and the only thing anyone wants in August.
+
+-- about section ---------------------------------------------------
+h2:       About this kitchen
+copy:     Sweet, smoky, and forgiving. The sauce does the work while the oven is on.
+copy:     Creamy, a little sweet, and better the next day. Make it the night before.
+
+-- footer ----------------------------------------------------------
+  Your Name &middot; you@example.com          (left)
+  Back to top                                 (right, links to #top)
+
+==================================================================
+RECIPE PAGE   recipes/bbq-chicken.html
+==================================================================
+
+-- hero ------------------------------------------------------------
+eyebrow:  Dinner · serves 4 · 40 minutes
+h1:       Sticky BBQ Chicken
+lede:     One tray, one sauce, and a forty minute window where you do almost nothing. Start it before you set the table.
+image:    ../images/bbq-chicken-banner.webp
+
+-- ingredients  (an unordered list, bullets left on) ----------------
+  8 chicken thighs, skin on
+  1 tbsp olive oil
+  2 tsp smoked paprika
+  1 tsp garlic powder
+  200 ml barbecue sauce
+  2 tbsp honey
+  1 tbsp cider vinegar
+  Salt and black pepper
+  Spring onions, to finish
+
+-- jump list  (an ordered list, one link per step) ------------------
+  Heat the oven
+  Season the chicken
+  Mix the sauce
+  Roast, then glaze
+  Rest and serve
+
+-- the five steps --------------------------------------------------
+
+id="step-1"
+  number: 1
+  h3:     Heat the oven
+  copy:   220°C, fan on. Put the empty tray in while it heats. A hot tray is the difference between crisp skin and steamed skin.
+
+id="step-2"
+  number: 2
+  h3:     Season the chicken
+  copy:   Pat the thighs dry, then rub with oil, paprika, garlic powder, salt and pepper. Dry skin browns. Wet skin does not.
+
+id="step-3"
+  number: 3
+  h3:     Mix the sauce
+  copy:   Stir the barbecue sauce, honey and vinegar together. Taste it. It should be sweeter than you want, because the oven takes the edge off.
+
+id="step-4"
+  number: 4
+  h3:     Roast, then glaze
+  copy:   Roast skin side up for 25 minutes. Brush on half the sauce, roast 10 more. Brush on the rest, roast 5 more. Three coats, not one.
+
+id="step-5"
+  number: 5
+  h3:     Rest and serve
+  copy:   Five minutes on the tray before it moves. Scatter the spring onions. Serve with the macaroni salad if you made it yesterday.
+
+-- last step also links back to the home page ----------------------
+  <a href="../index.html#cards">pick another recipe</a>
