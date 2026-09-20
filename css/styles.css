@@ -122,3 +122,55 @@ main {
     font-size: 16px;
     color: #6B6560;
 }
+.recipe-hero {
+    padding: 46px 0 34px;
+}
+.recipe-hero img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    margin-top: 24px;
+}
+.recipe-body {
+    display: grid;
+    grid-template: auto / 300px 1fr;
+    gap: 54px;
+    padding-bottom: 60px;
+}
+.ingredients {
+    background: #EFE9DF;
+    padding: 26px;
+    align-self: start;
+}
+.ingredients ul {
+    margin: 12px 0 0 20px;
+}
+.ingredients li {
+    margin-bottom: 9px;
+    font-size: 16px;
+}
+.jump {
+    border-left: 3px solid #1B858F;
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+.jump ol {
+    margin-left: 18px;
+}
+.jump li {
+    font-size: 16px;
+}
+.step {
+    border-top: 1px solid #EFE9DF;
+    padding-top: 26px;
+    margin-top: 26px;
+}
+.step .num {
+    font-size: 30px;
+    color: #1B858F;
+    display: block;
+}
+.back {
+    font-size: 14px;
+    color: #6B6560;
+}
