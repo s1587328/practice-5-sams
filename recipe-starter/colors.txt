@@ -1,11 +1,11 @@
 COLORS
 Type these in by hand. There are only five, and you will get to know them.
 
-  ink      #1D1B18     text, the nav bar, the footer
-  paper    #FBF8F3     the page behind everything
-  bone     #EFE9DF     the ingredients panel, the hairlines between sections
-  accent   #1B858F     links, the button, the step numbers, the eyebrow
-  muted    #6B6560     the lede, the card copy, the small print
+  ink      #191715     text, the nav bar, the footer
+  paper    #fbfaf0     the page behind everything
+  bone     #e1d8c8     the ingredients panel, the hairlines between sections
+  accent   #1987af     links, the button, the step numbers, the eyebrow
+  muted    #7d766f     the lede, the card copy, the small print
 
 Keep a comment at the top of styles.css with these five in it. That is where
 you will look every time you need one.

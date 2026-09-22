@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="preconnect" href="https:/fonts.googleapis.com">
+    <link rel="preconnect" href="https:/fonts.gstatic.com" crossorigin>
+    <link href="https:/fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+    <nav class="site-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#cards">Recipes</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#method">Method</a></li>
+            <li><a href="mailto:you@example.com">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+<header class="recipe-hero">
+            <p class="eyebrow"> Serves X &middot; Y minutes</p>
+            <h1>Macaroni Salad</h1>
+            <p class="lede">Description Text</p>
+            <img src="../images/amish-macaroni-salad-card.webp" alt="A bowl of creamy macaroni salad">
+        </header>
+        <div class="recipe-body">
+            <aside class="ingredients">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>Ingredient 1</li>
+                    <li>Ingredient 2</li>
+                    <li>Ingredient 3</li>
+                    <li>Ingredient 4</li>
+                    <li>Ingredient 5</li>
+                    <li>Ingredient 6</li>
+                    <li>Ingredient 7</li>
+                    <li>Ingredient 8</li>
+                </ul>
+            </aside>
+            <section id="method">
+                <h2>Method</h2>
+                <nav class="jump">
+                    <ol>
+                        <li><a href=#step-1>Step 1</a></li>
+                        <li><a href=#step-2>Step 2</a></li>
+                        <li><a href=#step-3>Step 3</a></li>
+                        <li><a href=#step-4>Step 4</a></li>
+                        <li><a href=#step-5>Step 5</a></li>
+                    </ol>
+                </nav>
+                <article class="step" id="step-1">
+                    <span class="num">1</span>
+                    <h3>Part A</h3>
+                    <p>Part B</p>
+                    <p><a class="back" href="#method">Back to the steps</a></p>
+                    <p>Do the final step, or <a href="../index.html#cards">pick another recipe</a>.</p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="inner">
+            <p>Sam &middot; <a href="mailto:you@example.com">you@example.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>

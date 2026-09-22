@@ -1,9 +1,9 @@
 /* COLORS
-    ink #1D1B18
-    paper #FBF8F3
-    bone #EFE9DF
-    accent #1B858F
-    muted #6B6560 */
+    ink #191715
+    paper #fbfaf0
+    bone #e1d8c8
+    accent #1987af
+    muted #7d766f */
 
 * {
     box-sizing: border-box;
@@ -11,8 +11,8 @@
     padding: 0;
 }
 body {
-    background: #FBF8F3;
-    color: #1D1B18;
+    background: #fbfaf0;
+    color: #191715;
     font-family: 'Inter', Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.65;
@@ -32,7 +32,7 @@ main {
 }
 
 .site-nav {
-    background: #1D1B18;
+    background: #191715;
 }
 .site-nav ul {
     list-style: none;
@@ -44,13 +44,13 @@ main {
     padding: 16px 24px;
 }
 .site-nav a {
-    color: #FBF8F3;
+    color: #fbfaf0;
     text-decoration: none;
     font-size: 15px;
 }
 .site-footer {
-    background: #1D1B18;
-    color: #FBF8F3;
+    background: #191715;
+    color: #fbfaf0;
 }
 .site-footer .inner {
     display: grid;
@@ -60,7 +60,7 @@ main {
     padding: 34px 24px;
 }
 .site-footer a {
-    color: #FBF8F3;
+    color: #fbfaf0;
 }
 .site-footer .right {
     text-align: right;
@@ -80,25 +80,29 @@ main {
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 0.18em;
-    color: #1B858F;
+    color: #1987af;
     margin-bottom: 10px;
 }
 .lede {
     font-size: 20px;
-    color: #6B6560;
+    color: #7d766f;
 }
 .button {
     display: inline-block;
-    background: #1B858F;
-    color: #FBF8F3;
+    background: #1987af;
+    color: #fbfaf0;
     text-decoration: none;
     font-size: 15px;
     padding: 13px 22px;
     margin-top: 12px;
     text-transform: uppercase;
 }
+/* Commented out the button class/rule. This pretty much broke it 
+entirely since all of the visual and functional elements are 
+present here. Nothing was visible and clicking where it was
+did nothing.*/
 .section-head {
-    border-top: 1px solid #EFE9DF;
+    border-top: 1px solid #e1d8c8;
     padding: 34px 0 24px;
 }
 .section-head p {
@@ -120,7 +124,7 @@ main {
 }
 .card p {
     font-size: 16px;
-    color: #6B6560;
+    color: #7d766f;
 }
 .recipe-hero {
     padding: 46px 0 34px;
@@ -138,7 +142,7 @@ main {
     padding-bottom: 60px;
 }
 .ingredients {
-    background: #EFE9DF;
+    background: #e1d8c8;
     padding: 26px;
     align-self: start;
 }
@@ -150,7 +154,7 @@ main {
     font-size: 16px;
 }
 .jump {
-    border-left: 3px solid #1B858F;
+    border-left: 3px solid #1987af;
     padding-left: 18px;
     margin-bottom: 30px;
 }
@@ -161,16 +165,16 @@ main {
     font-size: 16px;
 }
 .step {
-    border-top: 1px solid #EFE9DF;
+    border-top: 1px solid #e1d8c8;
     padding-top: 26px;
     margin-top: 26px;
 }
 .step .num {
     font-size: 30px;
-    color: #1B858F;
+    color: #1987af;
     display: block;
 }
 .back {
     font-size: 14px;
-    color: #6B6560;
+    color: #7d766f;
 }
